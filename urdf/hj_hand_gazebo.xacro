@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+
+    <gazebo reference="pris_thumb_jo">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="pris_thumb_DIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="pris_index">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="pris_middle">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="pris_ring">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="pris_little">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+<!-- fingers-->
+    <gazebo reference="thumb_joint">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="thumb_MCP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="thumb_DIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+
+    <gazebo reference="index_MCP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="index_PIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="index_DIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+
+    <gazebo reference="middle_MCP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="middle_PIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="middle_DIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+
+    <gazebo reference="ring_MCP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="ring_PIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="ring_DIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+
+    <gazebo reference="little_MCP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="little_PIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="little_DIP">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+
+    <gazebo>
+      <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+        <robotNamespace>/hj_hand_chain</robotNamespace>
+        <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+      </plugin>
+    </gazebo>
+
+</robot>

@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+      <transmission name="pris_thumb_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="pris_thumb_jo_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="pris_thumb_jo_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="pris_thumb_DIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="pris_thumb_DIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="pris_thumb_DIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="pris_index_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="pris_index_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="pris_index_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="pris_middle_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="pris_middle_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="pris_middle_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="pris_ring_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="pris_ring_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="pris_ring_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="pris_little_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="pris_little_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="pris_little_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+<!-- fingers -->
+    <transmission name="thumb_jo_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="thumb_jo_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="thumb_jo_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="thumb_MCP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="thumb_MCP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="thumb_MCP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="thumb_DIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="thumb_DIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="thumb_DIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="index_MCP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="index_MCP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="index_MCP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="index_PIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="index_PIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="index_PIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="index_DIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="index_DIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="index_DIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="middle_MCP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="middle_MCP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="middle_MCP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="middle_PIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="middle_PIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="middle_PIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="middle_DIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="middle_DIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="middle_DIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="ring_MCP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="ring_MCP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="ring_MCP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="ring_PIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="ring_PIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="ring_PIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="ring_DIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="ring_DIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="ring_DIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="little_MCP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="little_MCP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="little_MCP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="little_PIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="little_PIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="little_PIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+    <transmission name="little_DIP_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="little_DIP_joint">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="little_DIP_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>    
+
+</robot>
