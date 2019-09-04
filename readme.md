@@ -17,8 +17,9 @@ The packages have been tested under ROS Kinetic and Ubuntu 16.04,
 
 ### Dependencies
 
-This software is built on the Robotic Operating System ([ROS]).
-One line istall: https://cafe.naver.com/openrt/14575 
+This software is built on the Robotic Operating System ([ROS](http://wiki.ros.org/ROS/Installation)).
+
+One line install: https://cafe.naver.com/openrt/14575 
 ```
 for Desktop
 
