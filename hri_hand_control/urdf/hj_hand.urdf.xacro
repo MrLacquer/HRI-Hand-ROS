@@ -44,7 +44,7 @@
             </visual>
             <collision>
                   <geometry>
-                        <mesh filename="package://hri_hand_control/urdf/F03_AL_link_hand_wrist_part.stl" scale="0.001 0.001 0.001"/> 
+                        <mesh filename="package://hri_hand_control/urdf/mesh/F03_AL_link_hand_wrist_part.stl" scale="0.001 0.001 0.001"/> 
                   </geometry>
                   <origin xyz = "0.0 0.0 0.0" rpy = "1.57 0.0 0.0"/>
             </collision>
@@ -63,11 +63,11 @@
       <xacro:property name="hand_palm_r" value="3.14" />
       <xacro:property name="hand_palm_p" value="4.71" />
       <xacro:property name="hand_palm_yaw" value="0.0" />
-
+      
       <link name="hand_palm">
             <visual>
                   <geometry>
-                  <mesh filename="package:/hri_hand_control/urdf/mesh/F03_AL_palm.stl" scale="0.001 0.001 0.001"/> 
+                  <mesh filename="package://hri_hand_control/urdf/mesh/F03_AL_palm.stl" scale="0.001 0.001 0.001"/> 
                   </geometry>
                   <origin xyz = "${hand_palm_x} ${hand_palm_y} ${hand_palm_z}" rpy = "${hand_palm_r} ${hand_palm_p} ${hand_palm_yaw}"/>
                   <material name="lightgrey">

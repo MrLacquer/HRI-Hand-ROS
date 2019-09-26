@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/msi-park/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/msi-park/catkin_ws/src/hj-URx-description/common-sensors/common_sensors/include/**",
+                "/home/msi-park/catkin_ws/src/darknet_ros/darknet_ros/include/**",
+                "/home/msi-park/catkin_ws/src/realsense-ros/ddynamic_reconfigure/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/DynamixelSDK/ros/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/dynamixel-workbench/dynamixel_workbench_controllers/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/dynamixel-workbench/dynamixel_workbench_operators/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/dynamixel-workbench/dynamixel_workbench_single_manager/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/dynamixel-workbench/dynamixel_workbench_single_manager_gui/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+                "/opt/ros/kinetic/share/fetch_gazebo/include/**",
+                "/home/msi-park/catkin_ws/src/src/find_object_2d/include/**",
+                "/home/msi-park/catkin_ws/src/turtlebot3_packages/jsk_common/jsk_topic_tools/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator_applications/open_manipulator_apple/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator/open_manipulator_control_gui/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator/open_manipulator_controller/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator/open_manipulator_example/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator/open_manipulator_libs/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator_applications/open_manipulator_master_slave/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator/open_manipulator_moveit/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator_applications/open_manipulator_pick_and_place/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator/open_manipulator_teleop/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator_with_tb3/open_manipulator_with_tb3_tools/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator_with_tb3/open_manipulator_with_tb3_waffle_moveit/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/open_manipulator_with_tb3/open_manipulator_with_tb3_waffle_pi_moveit/include/**",
+                "/home/msi-park/catkin_ws/src/openni2_camera/openni2_camera/include/**",
+                "/home/msi-park/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+                "/home/msi-park/catkin_ws/src/openmanipulator_packages/robotis_manipulator/include/**",
+                "/home/msi-park/catkin_ws/src/turtlebot3_packages/turtlebot3/turtlebot3_slam/include/**",
+                "/home/msi-park/catkin_ws/src/ur_modern_driver/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
